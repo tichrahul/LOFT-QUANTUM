@@ -58,8 +58,6 @@ async function githubCommand(sock, chatId, message) {
 📅 *Last Update* : ${moment(data.updated_at).tz('Asia/Jakarta').format('DD/MM/YYYY - HH:mm:ss')} (WIB)
 🔗 *URL* : ${data.html_url}
 
-\( {data.description ? `*Description* :\n_ \){data.description}_\n` : ''}
-
 > Powered by *ʟᴏꜰᴛ Qᴜᴀɴᴛᴜᴍ™*
 `.trim();
 
