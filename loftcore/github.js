@@ -11,7 +11,7 @@ const path = require('path');
  */
 async function githubCommand(sock, chatId, message) {
   const repoUrl = 'https://api.github.com/repos/xmdloft23/loft-quantum';
-  const imagePath = path.resolve(./image.jpg');
+  const imagePath = path.resolve('./image.jpg');
 
   // Check if image exists first
   if (!fs.existsSync(imagePath)) {
